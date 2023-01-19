@@ -1,4 +1,4 @@
-package Chap3;
+package Chap2;
 
 import java.util.Scanner; // Scanner is in the java.util package
 
