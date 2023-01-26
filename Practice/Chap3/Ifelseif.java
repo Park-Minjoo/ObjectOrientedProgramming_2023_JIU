@@ -1,4 +1,4 @@
-import java.util.Scanner;
+mport java.util.Scanner;
 
 public class Ifelseif {
     public static void main(String[] args){
