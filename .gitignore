@@ -1,5 +1,5 @@
 .DS_STORE
 out/
-/.idea
+.idea/
 ~$*
 *.iml
