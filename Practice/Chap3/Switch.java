@@ -4,10 +4,10 @@ public class Switch {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int number = input.nextInt();
+        int date = input.nextInt();
 
         String numberStr = null;
-        switch (number) {
+        switch (date) {
             case 0:  numberStr = "Sunday";    break;
             case 1:  numberStr = "Monday";    break;
             case 2:  numberStr = "Tuesday";   break;
