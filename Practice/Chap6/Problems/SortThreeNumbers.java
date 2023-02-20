@@ -19,15 +19,16 @@ public class SortThreeNumbers {
             double num1, double num2, double num3) {
         double temp; // Hold number to swap
 
-        if (num2 < num1 && num2 < num3){
-            temp = num1;
-            num1 = num2;
-            num2 = temp;
+        if (num2 < num1 && num2 < num3){ // 2 1 3
+            temp = num1; // temp = 2
+            num1 = num2; // num1 = 1
+            num2 = temp; // num2 = 2
         }
-        else if (num3 < num1 && num3 < num2) {
+        else if (num3 < num1 && num3 < num2) { // 2 3 1
             temp = num1;
             num1 = num3;
             num3 = temp;
+            // 1 2 3
         }
         if (num3 < num2) {
             temp = num2;
