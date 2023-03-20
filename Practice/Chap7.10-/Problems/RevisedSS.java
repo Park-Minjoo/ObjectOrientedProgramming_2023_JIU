@@ -19,7 +19,7 @@ public class RevisedSS {
         System.out.println();
     }
 
-    /** selsctionSort sorts array in accending order */
+    /** selectionSort sorts array in accending order */
     public static void selectionSort(double[] list) {
         for (int i = list.length - 1; i >= 0; i--) {
             // Find the maximum in the list[i+1...list.length]

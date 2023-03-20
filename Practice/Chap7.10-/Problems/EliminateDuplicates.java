@@ -29,17 +29,16 @@ public class EliminateDuplicates {
 
         // creating another array for only storing
         // the unique elements
-        int[] temp = new int[len];
-        int[] newList = new int[len];
+        int[] temp = new int[len]; /*Fill the blank*/
         int j = 0;
 
         for (int i = 0; i < len - 1; i++) {
-            if (list[i] != list[i + 1]) {
+            if (list[i] != list[i + 1]) { // 1 2 3
                 temp[j++] = list[i];
             }
         }
 
-//        temp[j++] = list[len - 1];
+        temp[j++] = list[len - 1];
 
         // Changing the original array
         for (int i = 0; i < j; i++) {
