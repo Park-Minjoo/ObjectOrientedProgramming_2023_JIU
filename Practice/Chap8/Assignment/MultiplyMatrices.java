@@ -46,6 +46,7 @@ public class MultiplyMatrices {
                 System.out.println();
             }
 
+            System.out.println(" = ");
             multiplyMatrix(A, B);
 
         }
