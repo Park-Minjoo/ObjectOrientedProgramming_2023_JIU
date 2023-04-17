@@ -2,21 +2,22 @@ package Polymorphism;
 
 class Animal {
     public void makeSound() {
-        System.out.println("동물이 소리를 낸다.");
+        System.out.println("The animal makes a sound");
     }
 }
 
 class Dog extends Animal {
     @Override
     public void makeSound() {
-        System.out.println("개가 짖는다.");
+        System.out.println("The dog barks");
     }
 }
 
 class Cat extends Animal {
     @Override
     public void makeSound() {
-        System.out.println("고양이가 울부짖는다.");
+        System.out.println("The cat meows");
     }
 }
+
 
