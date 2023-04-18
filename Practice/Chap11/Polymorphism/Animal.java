@@ -1,6 +1,8 @@
 package Polymorphism;
 
 class Animal {
+    private String sound;
+    private String name;
     public void makeSound() {
         System.out.println("The animal makes a sound");
     }
