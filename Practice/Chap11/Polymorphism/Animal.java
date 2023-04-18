@@ -18,6 +18,9 @@ class Animal {
 }
 
 class Dog extends Animal {
+    Dog(){
+
+    }
     Dog(String name, String sound){
         super(sound, name);
     }
