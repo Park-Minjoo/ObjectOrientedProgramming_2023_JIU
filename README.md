@@ -1,2 +1,4 @@
 # ObjectOrientedProgramming_2023_JIU
-## Assistance: Ahn Euijin, Park Minjoo
+## Assistance: Park Minjoo
+
+This is class repository about ObjectOrientedProgramming for JIU IT students in 2023 (Even-semester)
