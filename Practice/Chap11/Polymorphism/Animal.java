@@ -12,6 +12,14 @@ class Animal {
         this.name = name;
     }
 
+    public String getSound(){
+        return this.sound;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
     public void makeSound() {
         System.out.println("The animal makes a sound");
     }
